@@ -1,0 +1,50 @@
+body {
+    background-color: #40739e;      
+}
+
+.btn {
+    cursor: pointer;
+}
+
+h1 {
+    color :#ffffff;
+}
+
+.clicked{
+    color: #7f8c8d;
+}
+
+.form,
+.greetings {
+    display:none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.center{
+    position:absolute; 
+    top:50%; left:50%;
+    margin-top:-100px; margin-left:-100px; 
+    width:1000px; height:1000px; 
+}
